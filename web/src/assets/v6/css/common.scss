@@ -1,0 +1,82 @@
+@font-face {
+    font-family: Abhaya Libre ExtraBold; // 自定义名称，无需引号
+    src: url('/src/assets/v5/font/AbhayaLibre-ExtraBold/AbhayaLibre-ExtraBold.ttf')
+}
+
+@font-face {
+    font-family: Poppins; // 自定义名称，无需引号
+    src: url('/src/assets/v5/font/Poppins/Poppins-Light.ttf')
+}
+
+@font-face {
+    font-family: IBM Plex Sans; // 自定义名称，无需引号
+    src: url('/src/assets/v5/font/IBM_Plex_Sans/IBMPlexSans-Light.ttf')
+}
+
+@font-face {
+    font-family: Inter; // 自定义名称，无需引号
+    src: url('/src/assets/v5/font/Inter/Inter-VariableFont_opsz,wght.ttf')
+}
+
+@font-face {
+    font-family: Kanit; // 自定义名称，无需引号
+    src: url('/src/assets/v5/font/Kanit/Kanit-Light.ttf')
+}
+
+.container {
+    min-width: 355px;
+    height: 100%;
+    padding: 0 55px;
+}
+
+.h1 {
+    font-family: Abhaya Libre ExtraBold;
+    line-height: 80px;
+    font-size: 64px;
+    font-family: 800;
+}
+
+.txtCenter {
+    text-align: center;
+}
+
+
+@media screen and (max-width: 800px) {
+    .container {
+        padding: 0 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: Poppins; // 自定义名称，无需引号
+    src: url('/src/assets/lhs/v4/font/Poppins/Poppins-Light.ttf')
+}
+
+@font-face {
+    font-family: Unbounded; // 自定义名称，无需引号
+    src: url('/src/assets/lhs/v4/font/Unbounded/Unbounded-Medium.ttf')
+}

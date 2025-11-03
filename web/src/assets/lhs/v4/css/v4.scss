@@ -1,0 +1,60 @@
+@font-face {
+    font-family: AlibabaPuHuiTi_2_75_SemiBold; // 自定义名称，无需引号
+    src: url('/src/assets/lhs/v4/font/ali/AlibabaPuHuiTi-2-75-SemiBold.ttf')
+}
+
+@font-face {
+    font-family: Poppins; // 自定义名称，无需引号
+    src: url('/src/assets/lhs/v4/font/Poppins/Poppins-Light.ttf')
+}
+
+@font-face {
+    font-family: Unbounded; // 自定义名称，无需引号
+    src: url('/src/assets/lhs/v4/font/Unbounded/Unbounded-Medium.ttf')
+}
+
+.container {
+    min-width: 355px;
+    height: 100%;
+    padding: 0 55px;
+}
+
+// 通用btn start
+.btn {
+    width: 142px;
+    height: 37px;
+    background-image: linear-gradient(148deg, #717171, #B5B5B5);
+    border-radius: 43px;
+    overflow: hidden;
+    padding: 3px;
+    font-family: AlibabaPuHuiTi_2_75_SemiBold;
+    font-weight: 400;
+    font-size: 18px;
+    color: #8B8F9F;
+    cursor: pointer;
+
+    .cnt {
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        border-radius: 43px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+}
+
+.btn:hover {
+    .cnt {
+        color: #fff;
+    }
+}
+// 通用btn end
+
+
+@media screen and (max-width: 800px) {
+    .container {
+        padding: 0 10px;
+    }
+}
